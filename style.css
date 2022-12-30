@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --light-grey: hsl(217, 12%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --orange: hsl(25, 97%, 53%);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--very-dark-blue);
+  color: var(--white);
+}
+
+.review {
+  background-color: var(--dark-blue);
+  height: 23rem;
+  width: 21rem;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.7rem;
+  margin: 2rem 0 1rem 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--medium-grey);
+}
+
+i {
+  color: var(--orange);
+}
+
+btn {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-blue);
+  color: var(--light-grey);
+}
+
+btn:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.favourite {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--very-dark-blue);
+  color: var(--light-grey);
+}
+
+.rating-btn {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.submit {
+  background-color: var(--orange);
+  width: 100%;
+  height: 3rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.submit:hover {
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+/* page 2 */
+
+.final-rating {
+  background-color: var(--very-dark-blue);
+  color: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 2rem;
+  border-radius: 2rem;
+}
+
+.thank-you-img {
+  margin-bottom: 2rem;
+}
+
+.page-2 {
+  text-align: center;
+}
+
+.page-2-review {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
